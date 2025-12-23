@@ -100,11 +100,16 @@ Incorporated attention (CBAM) and explainability (Grad-CAM)
 Improved interpretability but did not outperform Phase 3 in accuracy
 
 **Model Performance Comparison**
+
 Model	Accuracy	Macro-F1	F1 (Glioma)	F1 (Meningioma)	F1 (Pituitary)
-**Baseline CNN**	0.78	0.71	0.87	0.42	0.90
-**ResNet-50 TL**	0.79	0.75	0.80	0.55	0.89
-**Callback-Guided ResNet-50** 	0.84	0.83	0.83	0.73	0.92
-**ResNet-50 + CBAM**	0.79	0.75	0.84	0.49	0.88
+
+# Baseline CNN	0.78	0.71	0.87	0.42	0.90
+
+# ResNet-50 TL	0.79	0.75	0.80	0.55	0.89
+
+# Callback-Guided ResNet-50 	0.84	0.83	0.83	0.73	0.92
+
+# ResNet-50 + CBAM	0.79	0.75	0.84	0.49	0.88
 
 Additional metrics (Final Model):
 
